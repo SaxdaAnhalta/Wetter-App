@@ -10,11 +10,16 @@ using System.Windows.Forms;
 
 namespace Wetter_App
 {
-    public partial class Form1 : Form
+    public partial class Fenstername : Form
     {
-        public Form1()
+        public Fenstername()
         {
             InitializeComponent();
+        }
+
+        private void Form1_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }
